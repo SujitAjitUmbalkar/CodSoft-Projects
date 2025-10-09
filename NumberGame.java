@@ -16,7 +16,8 @@ public class NumberGame
         System.out.println("            NUMBER GUESS GAME      ");
         System.out.println("=======================================\n");
 
-        while (playAgain) {
+        while (playAgain) 
+{
             int numberToGuess = rand.nextInt(100) + 1;  // random between 1-100
             int attemptsLeft = 7;  // limit attempts
             boolean guessedCorrect = false;
