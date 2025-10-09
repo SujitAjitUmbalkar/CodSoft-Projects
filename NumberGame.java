@@ -25,7 +25,8 @@ public class NumberGame
             System.out.println("I have picked a number between 1 and 100.");
             System.out.println("You have " + attemptsLeft + " attempts. Good luck!\n");
 
-            while (attemptsLeft > 0) {
+            while (attemptsLeft > 0) 
+{
                 System.out.print("Enter your guess: ");
                 int guess = sc.nextInt();
 
