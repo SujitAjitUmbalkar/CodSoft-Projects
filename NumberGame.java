@@ -46,7 +46,8 @@ public class NumberGame
                 System.out.println("Attempts left: " + attemptsLeft + "\n");
             }
 
-            if (!guessedCorrect) {
+            if (!guessedCorrect) 
+{
                 System.out.println(" Out of attempts! The number was: " + numberToGuess);
             }
 
