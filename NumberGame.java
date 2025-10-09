@@ -30,7 +30,8 @@ public class NumberGame
                 System.out.print("Enter your guess: ");
                 int guess = sc.nextInt();
 
-                if (guess == numberToGuess) {
+                if (guess == numberToGuess) 
+{
                     System.out.println(" Correct! You guessed it!");
                     guessedCorrect = true;
                     totalScore++;
